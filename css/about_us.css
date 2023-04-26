@@ -1,0 +1,263 @@
+body{
+    font-family:"Monstserrat";
+  }
+  #title{
+    background-color: #1D2D50;
+    color: #fff;
+  }
+  #navi {
+    background: #1D2D50;
+  }
+  .h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+  
+  
+  }
+  
+  .containeer-fluid{
+    padding:3% 15%;
+  }
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.0rem;
+    font-weight: bold;
+  }
+  
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .main-container {
+    padding: 30px;
+  }
+  
+  
+  /* CARDS */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    width: 50vw;
+    /* height: 50vh; */
+    min-height: 300px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+  
+  .card__link,
+  .card__exit,
+  .card__icon {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .card__link::after {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: all 0.5s;
+  }
+  
+  .card__link:hover::after {
+    width: 100%;
+  }
+  
+  .card__exit {
+    grid-row: 1/2;
+    justify-self: end;
+  }
+  
+  .card__icon {
+    grid-row: 2/3;
+    font-size: 30px;
+  }
+  
+  .card__title {
+    margin-top: 20px;
+    grid-row: 3/4;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  
+  .card__apply {
+    grid-row: 4/5;
+    align-self: center;
+  }
+  
+  /* CARD BACKGROUNDS */
+  
+  .card-1 {
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+  
+  .card-2 {
+    background: radial-gradient(#A66CFF, #9C9EFE);
+  }
+  
+  .card-3 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  .card-4 {
+    background: radial-gradient(#60efbc, #58d5c9);
+  }
+  
+  .card-5 {
+    background: radial-gradient(#f588d8, #c0a3e5);
+  }
+  
+  .card-6 {
+    background: radial-gradient(#76b2fe, #b69efe);
+  }
+  
+  /* RESPONSIVE */
+  
+  @media (max-width: 1600px) {
+    .cards {
+      justify-content: center;
+    }
+  }
+  
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  
+  * {
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #9CA3AF;
+    font-family: "Poppins", sans-serif;
+  }
+  
+
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+ 
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  h2{
+    color: red;
+  }
+  
+  .c3{
+    margin: 0 auto;
+  }
+  
+  .c2{
+    margin: 0 auto;
+  }
+  
+  .c1{
+    margin: 0 auto;
+  }
+  
+  .c4{
+    margin: 0 auto;
+  
+  }
+  
+  .c5{
+      margin: 0 auto;
+  
+  }
+  
+  .c6{
+    margin: 0 auto;
+  }
+  .team{
+    font-family: "Comic Sans";
+    font-size: 40px;
+    font-weight: lighter;
+  }

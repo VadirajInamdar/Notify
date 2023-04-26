@@ -1,0 +1,142 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(64, 71, 80);
+    font-size: 0.8rem;
+    font-family: 'Work Sans'
+}
+.close{
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.regtxt{
+    font-size: large;
+}
+.reglnk:hover{
+    font-size:medium;
+}
+    .card{
+    max-width: 1000px;
+    width: 100%;
+    padding: 4rem;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+    @media(max-width:768px){
+    .card{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+}
+    .row{
+    margin: 0
+}
+    .path{
+    color: grey;
+    margin-bottom: 1rem;
+    font-size: larger;
+}
+    .info{
+    padding: 6vh 0vh;
+}
+    @media(max-width:768px){
+    .info{
+    padding: 0;
+}
+
+}
+   
+    img{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+    @media(max-width:768px){
+    img{
+    padding: 2.5rem 0;
+}
+
+}
+    .title .col{
+    padding: 0;
+}
+    #reviews{
+    margin-left: 3vh;
+    color: grey;
+}
+    .price{
+    margin-top: 2rem;
+}
+    label.radio span{
+    padding: 1vh 4vh;
+    background-color: rgb(54, 54, 54);
+    color: grey;
+    display: inline-block;
+    margin-right: 2vh;
+}
+  
+    .lower{
+    margin-top: 3rem;
+}
+    .lower i{
+    padding: 2.5vh;
+    margin-right: 1vh;
+    color: grey;
+    border: 1px solid rgb(85, 85, 85);
+}
+    .lower .col{
+    padding: 0;
+}
+    @media(max-width:768px){
+    .lower i{
+    padding: 2vh;
+    margin-right: 1vh;
+    color: grey;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+}
+    .btn{
+    background-color: transparent;
+    border-color: rgba(186, 216, 125, 0.863);
+    color: rgba(186, 216, 125, 0.863);
+    padding: 1.8vh 4.5vh;
+    height: fit-content;
+    border-radius: 3px;
+}
+    .btn:focus{
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none;
+}
+    .btn:hover{
+    color: white;
+}
+    @media(max-width:768px){
+    .btn{
+    background-color: transparent;
+    border-color: rgba(186, 216, 125, 0.863);
+    color: rgba(186, 216, 125, 0.863);
+    padding: 1vh;
+    font-size: 0.9rem;
+    height: fit-content;
+    border-radius: 3px;
+}
+
+}
+    a{
+    color: unset;
+}
+    a:hover{
+    color: unset;
+    text-decoration: none;
+}

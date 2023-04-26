@@ -1,2 +1,1 @@
-# Notify
-SIH 2022
+# SIH
